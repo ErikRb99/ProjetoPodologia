@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podologia Especializada - Cuidado Profissional para seus Pés</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Work+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">    
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">Podologia Care</div>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#agendamento" class="cta-btn">Agendar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Cuidado especializado para seus pés</h1>
+            <p>Tratamentos profissionais de podologia com técnicas modernas e atendimento humanizado. Seu bem-estar começa aqui.</p>
+            <div class="hero-buttons">
+                <a href="#agendamento" class="btn-primary">Agendar Consulta</a>
+                <a href="#servicos" class="btn-secondary">Nossos Serviços</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-placeholder"><img class="imageSara" src='./podologaSaraMaria.jpg' alt="Sara Maria, podologa"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicos">
+        <div class="section-header">
+            <h2>Nossos Serviços</h2>
+            <p>Tratamentos especializados para cuidar da saúde e estética dos seus pés</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <span class="service-icon">🦶</span>
+                <h3>Tratamento de Calos</h3>
+                <p>Remoção profissional de calosidades e hiperqueratose com técnicas seguras e indolores.</p>
+            </div>
+            <div class="service-card">
+                <span class="service-icon">💅</span>
+                <h3>Unhas Encravadas</h3>
+                <p>Correção e tratamento de unhas encravadas com técnicas especializadas para alívio imediato.</p>
+            </div>
+            <div class="service-card">
+                <span class="service-icon">🔬</span>
+                <h3>Micoses</h3>
+                <p>Diagnóstico e tratamento de micoses e infecções fúngicas com acompanhamento personalizado.</p>
+            </div>
+            <div class="service-card">
+                <span class="service-icon">🩺</span>
+                <h3>Pé Diabético</h3>
+                <p>Cuidados preventivos e tratamento especializado para pacientes diabéticos.</p>
+            </div>
+            <div class="service-card">
+                <span class="service-icon">✨</span>
+                <h3>Podologia Estética</h3>
+                <p>Tratamentos estéticos para deixar seus pés bonitos e saudáveis.</p>
+            </div>
+            <div class="service-card">
+                <span class="service-icon">👣</span>
+                <h3>Avaliação Postural</h3>
+                <p>Análise biomecânica e orientações para melhorar sua postura e pisada.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>Sobre a Profissional</h2>
+                <p>Recém-formada em Podologia, a profissional inicia sua trajetória com dedicação, responsabilidade e um olhar atento ao cuidado integral da saúde dos pés.</p>
+                <p>Com formação atualizada e alinhada às melhores práticas da área, atua com foco na prevenção, no tratamento e na promoção do bem-estar, sempre priorizando a segurança, o conforto e a individualidade de cada paciente.
+Seu atendimento é pautado na ética, no acolhimento e na busca constante por aprimoramento profissional, acompanhando as inovações e técnicas modernas da podologia. Mesmo no início da carreira, demonstra comprometimento em oferecer um serviço de qualidade, com atenção aos detalhes e cuidado humanizado, proporcionando mais saúde, alívio e qualidade de vida aos seus pacientes.</p>
+                <div class="about-features">
+                    <div class="feature">
+                        <div class="feature-icon">✓</div>
+                        <div>
+                            <h4>Certificação Profissional</h4>
+                            <p>Formação reconhecida e especialização contínua</p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">✓</div>
+                        <div>
+                            <h4>Equipamentos Modernos</h4>
+                            <p>Tecnologia de ponta para tratamentos seguros</p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">✓</div>
+                        <div>
+                            <h4>Atendimento Personalizado</h4>
+                            <p>Cada paciente recebe atenção individualizada</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="image-placeholder"></div>
+        </div>
+    </section>
+
+    <!-- Scheduling Section -->
+    <section id="agendamento">
+        <div class="scheduling-container">
+            <h2>Agende sua Consulta</h2>
+            <p>Preencha o formulário abaixo e entraremos em contato para confirmar seu horário</p>
+            <form class="form-grid" id="agendamentoForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="nome">Nome Completo *</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefone">Telefone/WhatsApp *</label>
+                        <input type="tel" id="telefone" name="telefone" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="data">Data Preferencial *</label>
+                        <input type="date" id="data" name="data" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="horario">Horário Preferencial *</label>
+                        <select id="horario" name="horario" required>
+                            <option value="">Selecione</option>
+                            <option value="manha">Manhã (8h - 12h)</option>
+                            <option value="tarde">Tarde (13h - 18h)</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="servico">Serviço Desejado *</label>
+                    <select id="servico" name="servico" required>
+                        <option value="">Selecione</option>
+                        <option value="calos">Tratamento de Calos</option>
+                        <option value="unhas">Unhas Encravadas</option>
+                        <option value="micoses">Micoses</option>
+                        <option value="diabetico">Pé Diabético</option>
+                        <option value="estetica">Podologia Estética</option>
+                        <option value="avaliacao">Avaliação Postural</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="observacoes">Observações</label>
+                    <textarea id="observacoes" name="observacoes" placeholder="Descreva brevemente sua necessidade ou dúvida"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Solicitar Agendamento</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog">
+        <div class="section-header">
+            <h2>Dicas e Cuidados</h2>
+            <p>Informações valiosas para a saúde dos seus pés</p>
+        </div>
+        <div class="blog-grid">
+            <div class="blog-card">
+                <div class="blog-image"></div>
+                <div class="blog-content">
+                    <span class="blog-date">15 Jan 2026</span>
+                    <h3>Como Prevenir Unhas Encravadas</h3>
+                    <p>Aprenda as melhores técnicas de corte de unhas e cuidados diários para evitar esse problema doloroso e comum.</p>
+                    <a href="https://www.tuasaude.com/4-dicas-para-evitar-a-unha-encravada/" class="read-more" target="_blank">Ler mais →</a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <div class="blog-image"></div>
+                <div class="blog-content">
+                    <span class="blog-date">08 Jan 2026</span>
+                    <h3>Cuidados com o Pé Diabético</h3>
+                    <p>Orientações essenciais para diabéticos manterem a saúde dos pés e prevenirem complicações graves.</p>
+                    <a href="https://www.tuasaude.com/sintomas-e-tratamento-para-pe-diabetico/" class="read-more" target="_blank">Ler mais →</a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <div class="blog-image"></div>
+                <div class="blog-content">
+                    <span class="blog-date">02 Jan 2026</span>
+                    <h3>Escolhendo o Calçado Ideal</h3>
+                    <p>Dicas profissionais para selecionar sapatos que promovem saúde e conforto aos seus pés no dia a dia.</p>
+                    <a href="https://portaldaortopedia.com.br/guia-escolha-sapato-pes/" class="read-more" target="_blank">Ler mais →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contato">
+        <div class="section-header">
+            <h2>Entre em Contato</h2>
+            <p>Estamos prontos para cuidar de você</p>
+        </div>
+        <div class="contact-grid">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">📱</div>
+                    <div>
+                        <h4>Telefone / WhatsApp</h4>
+                        <p>(32) 98872-3699</p>
+                        <p>Atendimento de seg. a sex., 8h às 18h</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📧</div>
+                    <div>
+                        <h4>E-mail</h4>
+                        <p>saraoliveira1129@gmail.com</p>
+                        <p>Respondemos em até 24 horas</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📍</div>
+                    <div>
+                        <h4>Endereço</h4>
+                        <p>Rua Presidente Raul Veiga, Olaria - Nova Friburgo/RJ - CEP 28623-460</p>
+                    </div>
+                </div>
+            </div>
+            <div class="map-placeholder">
+                📍 Mapa do Consultório<br>
+                <small style="font-size: 0.9rem; opacity: 0.8; margin-top: 10px; display: block;">
+                    Insira aqui o código do Google Maps
+                </small>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Podologia Care. Todos os direitos reservados.</p>
+        <div class="social-links">
+            <a href="#" aria-label="Instagram">📷</a>
+            <a href="#" aria-label="Facebook">👍</a>
+            <a href="#" aria-label="WhatsApp">💬</a>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/5532988723699?text=Olá!%20Gostaria%20de%20agendar%20uma%20consulta" 
+       class="whatsapp-float" 
+       target="_blank" 
+       aria-label="WhatsApp">
+        💬
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
